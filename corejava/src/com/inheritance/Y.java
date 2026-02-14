@@ -12,7 +12,8 @@ public class Y extends X {
 		//x.meth2();
 		X y=new X();
 		y.meth1();
-		//y.meth2();-> error with this reference variable we cannot access the child properties by using parent object
+		//y.meth2();-> error with this reference variable we cannot access 
+		//the child properties by using parent object
 		X a=new Y();
 		a.meth1();
 		//a.meth2();->error with this reference variable also we cannot access the child class properties

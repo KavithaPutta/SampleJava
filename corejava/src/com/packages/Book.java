@@ -1,5 +1,4 @@
 package com.packages;
-
 public class Book {
 	private int bookId;
 	private String booktitle;
@@ -31,8 +30,5 @@ public class Book {
 		availablecopies++;			
         System.out.println("Attempting to return a book...");
         return "Book returned successfully! updated" +availablecopies; 
-		
-	}
-	
-
+		}
 }
